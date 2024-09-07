@@ -130,7 +130,6 @@ font-size: 1.7em;
 }
 
 .cards{
-    height: 100vh;
     background-color:var(--white-text-color);
 }
 
@@ -181,7 +180,7 @@ margin: 10px;
 }
 
 .projects{
-    background-color:var(--secondary-color) ;
+    background-color:var(--accent-color) ;
 }
 
 .projects .content{
@@ -252,6 +251,28 @@ color: #000;
 color:#000;
 }
 .contact .info p{
-   font-size: 1.5em;
+   font-size: 1em;
     
-    }
+ }
+
+ .footer{
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .footer-title{
+    font-size: 1.1em;
+    font-weight: 600;
+
+ }
+ .footer-title span{
+    color: #0f0d12;
+ }
+ .footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+ }
+
