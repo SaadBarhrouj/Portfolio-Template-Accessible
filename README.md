@@ -7,6 +7,8 @@ If you are interested in obtaining the source code or have any inquiries, feel f
 - **Email:** [Saad Barhrouj](saad.barhrouj@etu.uae.ac.ma) 📧
 - **LinkedIn:** [Saad Barhrouj](https://www.linkedin.com/in/saad-barhrouj-b37270295/) 💼
 - **GitHub:** [SaadBarhrouj](https://github.com/SaadBarhrouj) 🐙
+-  <p> <a href="https://portfolio-saad-barhrouj.netlify.app/" target="_blank">My Portfolio</a></p> 
+
 
 ## Features
 - Responsive design
