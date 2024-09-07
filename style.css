@@ -11,7 +11,7 @@
 :root{
    --primary-color:#8456bf;
    --secondary-color:#b896e4;
-   --accent-color:#9558e5;
+   --accent-color:#8d4edf;
    --white-text-color:#f0f0f0;
    --black-text-color:#0f0d12;
 
@@ -19,8 +19,8 @@
 }
 
 header{
-    background-color: var(--primary-color);
-    color:var(--white-text-color);
+    background-color: var(--white-text-color);
+    color:var(--accent-color);
     width: 100%;
     position: fixed;
     z-index: 888;
@@ -34,14 +34,75 @@ header{
 text-decoration: none;
 font-size: 1.8em;
 font-weight: 700;
-color: var(--title-color);
+color:var(--accent-color);
 text-transform: uppercase;
 }
 
 .navigation a {
-    color: var(--white-text-color);
+    color:var(--accent-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1em;
     padding-left: 30px;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/5.profile.png) no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 .second-span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #0f0d12;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 40px
+}
+.main-btn {
+    color: #fff;
+    background-color: #0f0d12;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+
+.main-btn:hover{
+transform: scale(1.07);
+background-color: #241f2a;
+}
+
+.social-icons a{
+color: #fff;
+padding-right: 30px;
+font-size: 1.7em;
 }
