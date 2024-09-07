@@ -1,6 +1,6 @@
 
 <div style="text-align: center;">
-    <img src="preview/2.preview.png" alt="Portfolio Preview" width="600" style="border: 2px solid #000; display: inline-block;">
+    <img src="preview/1.preview.png" alt="Portfolio Preview" width="600" style="border: 2px solid #000; display: inline-block;">
     
 </div>
 <div style="text-align: center;">
