@@ -16,8 +16,6 @@
     --accent-color:#8d4edf;
     --white-text-color:#f0f0f0;
     --black-text-color:#0f0d12;
- 
- 
  }
  
 
@@ -35,8 +33,6 @@
  }
 
 
-
-
 header{
     background-color: var(--white-text-color);
     color:var(--accent-color);
@@ -48,11 +44,6 @@ header{
     align-items: center;
     padding: 10px 200px;
 }
-
-
-
-
-
 
 .logo{
 text-decoration: none;
@@ -76,25 +67,25 @@ text-transform: uppercase;
     content: '';
     position: absolute;
     width: 0;
-    height: 3px;
+    height:3px;
     background-color:#0f0d12; 
-    left:1.1em;
-    bottom: -21px;
-    transition:  0.3s ease;
+    left:1.6em;
+    bottom:-21px;
+    transition:  0.5s ease;
 }
+
 .navigation a:hover,.navigation a:focus {
   color:#0f0d12 ;
 }
 
 .navigation a:hover::after {
-    width: 100%;
+    width: 80%;
 }
-
-
 
 section{
     padding: 100px 200px;
 }
+
 
 .main{
     width: 100%;
