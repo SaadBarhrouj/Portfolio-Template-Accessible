@@ -5,18 +5,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+    outline: none; border: none;
+    scroll-behavior: smooth;
 }
+
 
 :root{
-   --primary-color:#8456bf;
-   --secondary-color:#b896e4;
-   --accent-color:#8d4edf;
-   --white-text-color:#f0f0f0;
-   --black-text-color:#0f0d12;
+    --primary-color:#8456bf;
+    --secondary-color:#b896e4;
+    --accent-color:#8d4edf;
+    --white-text-color:#f0f0f0;
+    --black-text-color:#0f0d12;
+ 
+ 
+ }
+ 
+
+*::-webkit-scrollbar{
+    width: 11px;
+ }
+ 
+ *::-webkit-scrollbar-track{
+    background-color: var(--white-text-color);
+ }
 
 
-}
 
 header{
     background-color: var(--white-text-color);
@@ -61,11 +74,13 @@ section{
     background-attachment: fixed;
     text-align: center;
 }
+
 .main h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
 }
+
 .main h2 .second-span{
     display: inline-block;
     margin-top: 10px;
@@ -73,6 +88,7 @@ section{
     font-size: 3em;
     font-weight: 600;
 }
+
 .main h3 {
     color: #fff;
     font-size: 2em;
@@ -81,6 +97,7 @@ section{
     margin-top: 10px;
     margin-bottom: 40px
 }
+
 .main-btn {
     color: #fff;
     background-color: #0f0d12;
@@ -93,7 +110,6 @@ section{
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.7s ease;
-
 }
 
 .main-btn:hover{
@@ -105,4 +121,53 @@ background-color: #241f2a;
 color: #fff;
 padding-right: 30px;
 font-size: 1.7em;
+}
+
+.cards{
+    background-color:var(--white-text-color);
+}
+
+
+.title{
+display: flex;
+justify-content: center;
+color: var(--accent-color);
+font-size: 2.2em;
+font-weight: 800;
+margin-bottom: 30px;
+
+}
+
+.cards .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.card {
+width: 21.25em;
+box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+transition: 0.8s ease;
+text-align: center;
+ }
+
+.card:hover{
+    border: 4px var(--accent-color) solid;
+    transform: scale(1.1);
+}
+
+.icon{
+    color: var(--accent-color);
+    font-size: 8em;
+
+}
+.info h3{
+color: var(--primary-color);
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
 }
