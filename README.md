@@ -13,9 +13,4 @@ If you are interested in obtaining the source code or have any inquiries, feel f
 - Customizable sections for services, projects, and contact
 - Ready-to-use template for developers, designers, and other professionals
 
-## Instructions
-1. Clone the repository.
-2. Edit the content to add your own information.
-3. Deploy the portfolio on your preferred platform.
 
-Feel free to contribute or report any issues!
