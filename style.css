@@ -58,7 +58,7 @@ text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1em;
-    padding-left: 30px;
+    padding-left: 1.875em;
     position: relative;
 
 }
@@ -135,9 +135,9 @@ section{
     font-weight: 600;
     display: inline-block;
     padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    margin-bottom: 40px;
+    letter-spacing: 0.125em;
+    border-radius: 0.9375em;
+    margin-bottom: 2.5em;
     transition: 0.7s ease;
 }
 
@@ -148,7 +148,7 @@ background-color: #241f2a;
 
 .social-icons a{
 color: #fff;
-padding-right: 30px;
+padding-right: 1.875em;
 font-size: 1.7em;
 }
 
@@ -163,7 +163,7 @@ justify-content: center;
 color: var(--accent-color);
 font-size: 2.2em;
 font-weight: 800;
-margin-bottom: 30px;
+margin-bottom: 1.875em;
 
 }
 
@@ -177,9 +177,9 @@ margin-bottom: 30px;
 .card {
 width: 21.25em;
 box-shadow: 0 5px 25px rgba(1 1 1 /15%);
-border-radius: 10px;
-padding: 25px;
-margin: 15px;
+border-radius: 0.625em;
+padding: 1.5625em;
+margin:0.9357em;
 transition: 0.8s ease;
 text-align: center;
  }
@@ -199,7 +199,7 @@ text-align: center;
 color: var(--primary-color);
 font-size: 1.2em;
 font-weight: 700;
-margin: 10px;
+margin: 0.625em;
 }
 
 .projects{
@@ -207,7 +207,7 @@ margin: 10px;
 }
 
 .projects .content{
-margin-top: 20px;
+margin-top: 1.25em;
 }
 
 .project-card{
@@ -216,8 +216,8 @@ border: 2px solid #fff;
 min-height: 14em;
 width: 20em;
 overflow: hidden;
-border-radius: 10px;
-margin: 20px;
+border-radius: 0.625em;
+margin: 1.25em;
 transition: 0.7s ease;
 }
 
@@ -247,7 +247,7 @@ color: #000;
   justify-content: space-between;
   font-weight: 800;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin-top: 0.625em;
 }
 .projects h2{
     color: #FFF;
@@ -296,38 +296,70 @@ color:#000;
  }
  .footer .social-icons a{
     font-size: 1.3em;
-    padding: 0 12px 0 0;
+    padding: 0 0.75em 0 0;
  }
 
 
 
  @media (max-width:1023px){
+
 header{
-    padding: 10px 20px;
+    padding: 0.9375em 2.5em;
 }
+
+.main{
+position: relative;
+background: url(images/profile-medium.png) no-repeat;
+background-size: cover;
+background-position:center;
+background-attachment: fixed;
+}
+
+.main-content{
+    position: absolute;
+    top: 10.625em;
+    left: 8.125em;
+}
+
 .navigation a {
-  padding-left:10px ;  
+  padding-left:1em; 
+  font-size: 1.375em; 
+}
+
+.main-btn{
+    padding: 1em;
+    font-size: 1.125em;
+}
+
+.main h2 .second-span{
+    font-weight: 600;
+    font-size: 2.2em;
 }
 
 .title{
     font-size: 1.8em;
 
 }
-.section{
-    padding: 80px 20px;
-}
-.main{
-    text-align: start;
 
+section{
+    padding:5em 2.5em;
 }
+
+
 .main-content h2{
-    font-size: 1em;
+    font-size: 1.2em;
+    padding: 0.625em;
 
 }
+
 .main-content h3{
-    font-size: 1em;
+    font-size: 1.4em;
+    padding: 0.625em;
+    margin-top: 0.125em;
+    margin-bottom: 1.875em;
 
 }
+
 .content{
     flex-direction: column;
     align-items: center;
@@ -336,22 +368,73 @@ header{
  
 }
 
+
 @media (max-width:641px){
     body{
         font-size: 12px;
     }
+
+    .logo{
+        font-size: 1.1em;
+    }
+
+    .navigation a {
+        font-size: 0.8125em;
+        
+    }
+
+    header{
+        padding: 0.625em 4.0625em;
+    }
+
     .main-content h2{
      font-size: 0.8em;
     }
+
    .main-content h3{
     font-size: 1.4em;
 
     }
+
+    .main{
+        position: relative;
+    }
+    
+    .main-content{
+        position: absolute;
+        left: 12%;
+        top: 18%;
+    }
+    
+    
+    .content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+   
 }
 
-@media (max-width:641px){
+
+@media (max-width:500px){
     body{
         font-size: 10px;
     }
+    header .navigation a {
+        font-size: 1.1em;
+    }
+    .main h2,h3{
+        font-size:1.5em;
+    }    
+
+   
+}
+
+@media (max-width:400px){
+    body{
+        font-size: 8px;
+    }
+  
+
    
 }
