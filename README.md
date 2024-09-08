@@ -1,4 +1,4 @@
- <p> <a href="https://portfolio-template-accessible.netlify.app/" target="_blank">Explore the Project</a></p> 
+Explore the Project: <p> <a href="https://portfolio-template-accessible.netlify.app/" target="_blank">portfolio-template-accessible</a></p> 
 
 <div style="text-align: center;">
     <img src="preview/1.preview.png" alt="Portfolio Preview" width="400" style="border: 2px solid #000; display: inline-block;">
