@@ -70,7 +70,7 @@ text-transform: uppercase;
     height:3px;
     background-color:#0f0d12; 
     left:1.6em;
-    bottom:-21px;
+    bottom:-20px;
     transition:  0.5s ease;
 }
 
@@ -324,6 +324,10 @@ background-attachment: fixed;
 .navigation a {
   padding-left:1em; 
   font-size: 1.375em; 
+}
+
+.navigation a:hover::after {
+    width: 0%;
 }
 
 .main-btn{
