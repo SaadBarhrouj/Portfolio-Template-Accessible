@@ -1,0 +1,8 @@
+# Ignorer tous les fichiers HTML
+#*.html
+
+# Ignorer tous les fichiers CSS
+#*.css
+
+# Ignorer tous les fichiers dans le dossier images
+#images/*
